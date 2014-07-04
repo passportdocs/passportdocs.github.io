@@ -1,6 +1,5 @@
 <!DOCTYPE html>
-<html class="full" lang="en">
-<!-- The full page image background will only work if the html has the custom class set to it! Don't delete it! -->
+<html lang="en">
 
 <head>
     <meta charset="utf-8">
@@ -8,12 +7,12 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Full Page Image Background Template for Bootstrap 3</title>
+    <title></title>
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Custom CSS for the 'Full' Template -->
+    <!-- Custom CSS for the 'landing-page' -->
     <link href="css/landing-page.css" rel="stylesheet">
 </head>
 
@@ -25,15 +24,83 @@
     <h1> Go ahead! check the things applicable to you. </h1>
   </div>
 </div>    <!-- Page content goes here -->
+<hr>
 <div class = "row">
-<form class="form-horizontal">
+<form class="form-horizontal form-applicant-details">
+
+
 <div class="form-group">
       <div class="col-lg-10">
-          
-            <input type="checkbox" class="checkbox" name="age"/> 18 years of age
-          <label for = "age"> </label>
+          <div class = "col-lg-6">
+          <h4 class="field-title"> Apply for: </h4>
+          </div>
+          <div class= "col-lg-6">
+          <input type="radio" class="radio" id= "normal" name="application-type" value="option1"/> 
+          <label for ="normal"> Normal Quota</label>
+          <input type="radio" class="radio" id="tatkal" name = "application-type" value="option2" /> 
+          <label for = "tatkal"> Tatkal Quota</label>
+          </div>
       </div>
-    </div>
+</div>
+
+<div class="form-group">
+      <div class="col-lg-10">
+          <div class = "col-lg-6">
+          <h4 class="field-title"> My age is: </h4>
+          </div>
+          <div class= "col-lg-6">
+          <input type="radio" class="radio" id= "below-18" name="applicant-category" value="option1"/> 
+          <label for ="below-18"> Below 18 years</label>
+          <input type="radio" class="radio" id="18-65" name = "applicant-category" value="option2" /> 
+          <label for = "18-65"> 18 years - 65 years</label>
+          <input type="radio" class="radio" id="above-65" name = "applicant-category" value="option3" /> 
+          <label for = "above-65"> Above 65 years</label>
+          </div>
+      </div>
+</div>
+
+<div class="form-group">
+      <div class="col-lg-10">
+          <div class = "col-lg-6">
+          <h4 class="field-title"> Are you born before 26/01/1989? </h4>
+          </div>
+          <div class= "col-lg-6">
+          <input type="radio" class="radio" id= "before-1989" name="dob-cert-required" value="option1"/> 
+          <label for ="before-1989"> Yes</label>
+          <input type="radio" class="radio" id="after-1989" name = "dob-cert-required" value="option2" /> 
+          <label for = "after-1989"> No</label>
+          </div>
+      </div>
+</div>
+
+<div class="form-group">
+      <div class="col-lg-10">
+          <div class = "col-lg-6">
+          <h4 class="field-title"> Educational qualifications : </h4>
+          </div>
+          <div class= "col-lg-6">
+          <input type="radio" class="radio" id= "below-10" name="edu-qualification" value="option1"/> 
+          <label for ="below-10"> Below Matriculation</label>
+          <input type="radio" class="radio" id="above-10" name = "edu-qualification" value="option2" /> 
+          <label for = "above-10"> Matriculation and above</label>
+          </div>
+      </div>
+</div>
+
+<div class="form-group">
+      <div class="col-lg-10">
+          <div class = "col-lg-6">
+          <h4 class="field-title"> Are your parents government employees? </h4>
+          </div>
+          <div class= "col-lg-6">
+          <input type="radio" class="radio" id= "govt-employee-dependant-yes" name="govt-employee-dependant" value="option1"/> 
+          <label for ="govt-employee-dependant-yes"> Yes</label>
+          <input type="radio" class="radio" id="govt-employee-dependant-yes" name = "govt-employee-dependant" value="option2" /> 
+          <label for = "govt-employee-dependant-no"> No</label>
+          </div>
+      </div>
+</div>
+
 </form>
 </div>
 
