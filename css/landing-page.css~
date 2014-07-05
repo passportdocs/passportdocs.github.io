@@ -24,7 +24,7 @@ input[type="checkbox"].checkbox + label, input[type="radio"].radio + label {
     position: relative;
     background-color: #b94a48;
     /*label styling*/
-    padding: 5px 10px;
+    padding: 8px 10px;
     font-size: 14px;
     font-weight: bold;
     line-height: 14px;
@@ -45,4 +45,21 @@ input[type="checkbox"].checkbox:disabled + label, input[type="radio"].radio:disa
     opacity: 0.5;
 }
 
+.img-circular{
+ width: 200px;
+ height: 200px;
+ background-size: cover;
+ display: block;
+ border-radius: 50%;
+ -webkit-border-radius: 50%;
+ -moz-border-radius: 50%;
+}
+.each-character {
+}
+.little-krishna {
+background-image: url("../images/little-krishna.jpg"); 
+}
 
+.characters {
+text-align: center;
+}
